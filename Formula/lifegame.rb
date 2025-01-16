@@ -9,6 +9,6 @@ class Lifegame < Formula
   sha256 "c773367b771050aa8e5c3a1fce1abde69114559933c1511e7941188516ac98f3"
 
   def install
-    bin.install "{{ env.PROJECT_NAME }}-v0.1.3-x86_64-pc-windows-msvc.exe" => "{{ env.PROJECT_NAME }}"
+    bin.install "{{ env.PROJECT_NAME }}-v0.1.3-x86_64-unknown-linux-gnu" => "{{ env.PROJECT_NAME }}"
   end
 end
